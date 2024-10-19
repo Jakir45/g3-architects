@@ -81,12 +81,66 @@
     .img{
         width: 100%;
     }
+    .fearures{
+        flex-direction: column;
+    }
+    .imgs{
+        width: 100%;
+    }
+    #badge{
+       visibility: hidden;
+    }
 }
 /* team section */
 main{
     max-width: 1108px;
     margin: 0 auto;
 }
+#feature-title{
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+.fearures{
+    display: flex;
+    gap: 100px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature-card .ffeature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    margin: -100px;
+
+}
+#badge-year{
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .team-about{
     display: flex;
     gap: 20px;
