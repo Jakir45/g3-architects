@@ -75,4 +75,78 @@
     .navbar, .nav-link{
         flex-direction: column;
     }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .img{
+        width: 100%;
+    }
+}
+/* team section */
+main{
+    max-width: 1108px;
+    margin: 0 auto;
+}
+.team-about{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+@media screen and (max-width:576px) {
+    .team-about{
+        flex-direction: column;
+    }
+    .team-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-section{
+        margin: 30px;
+        max-width: 500px;
+    }
+    .card-items{
+        flex-direction: column;
+        gap: 10px;
+        padding: 70px;
+    }
+    .text{
+        padding: 40px;
+    }
+}
+/* features section */
+.card{
+    max-width: 240px;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 2.75rem;
+    color: rgb(19, 19, 19);
+    width: 258px;
+    margin-top: 150px;
+}
+.card-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+    
+}
+.card-item{
+    margin: 45px 35px;
+    
 }
